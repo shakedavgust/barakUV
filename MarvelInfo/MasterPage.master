@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="DCInfo_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>ברוך הבא</title>
+     <link rel="Stylesheet" type="text/css" href="../StyleSheet.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body dir="rtl" background="../MainPic/ללא שם.bmp" style="margin-right:15px">
+<form id="Form1" runat="server"> 
+
+    <div  style=" margin-left:50px ; float:left"  >
+    
+        <asp:Image ID="Image1" runat="server" Height="97px" 
+            ImageUrl="~/MainPic/Title.png" Width="218px" />
+            </div>
+            <br /><br /><br /><br />
+                <div class="menuDiv"  dir="rtl"> 
+                <table >
+                <tr style="height:4px"></tr>
+                <tr>
+                 <td></td>
+                 
+                <td class="menuTd"><a class="menuA" href="../HomeP.aspx"><center>ראשי</center></a></td>
+                <td class="menuTd"><a class="menuA" href="../superheroP.aspx"><center>גיבורי על</center></a></td>
+                <td class="menuTd"><center> חנות</center></td>
+                <td class="menuTd"><a class="menuA" href="../SafeB.aspx"><center>קנייה בטוחה</center></a></td>
+                
+                </tr>
+                </table>
+                </div>
+    
+   <table class="table1">
+    <tr class="tr1">
+    <td class="td1"> 
+
+    </td></tr>
+    </table>
+
+        <table class="table2">
+       <tr>
+        <td><asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder></td>
+        <td> </td>
+        </tr></table>
+
+        <br /><br /><br /><center>
+        <table style=" width:500px;border-top:2px; border-top-color:#1ea6cc;  border-top-width:2px; border-top-style: solid;">
+        <tr style="width:12px;"><td style="width:55px"></td>
+        <td><a style="text-decoration:none; font-family:Arial; font-size:11px; color:#666666" 
+        href="../MainP.aspx">[כניסה]</a></td>
+        <td><a style="text-decoration:none; font-family:Arial; font-size:11px; color:#666666" 
+        href="../HomeP.aspx">[ראשי]</a></td>
+        <td><a style="text-decoration:none; font-family:Arial;font-size:11px; color:#666666" 
+        href="../HomeP.aspx">[חנות]</a></td>
+        <td><a style="text-decoration:none; font-family:Arial;font-size:11px; color:#666666" 
+        href="../loginP.aspx">[התחבר]</a></td>
+        <td><a style="text-decoration:none; font-family:Arial;font-size:11px; color:#666666" 
+        href="../registerP.aspx">[הרשם]</a></td>
+        <td><img src="../MainPic/Untitled.png" style="width: 80px; height: 57px" /></td>
+        
+        </tr>
+        </table></center>
+
+
+</form>
+</body>
+</html>
