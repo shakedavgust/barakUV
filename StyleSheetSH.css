@@ -1,0 +1,27 @@
+﻿.TDimg
+{
+   Height:189px; 
+   margin-left:10px;
+}
+.Simg
+{
+     Height:189px;
+     Width:131px;
+}
+.div1
+{
+    background-color:#1ea6cc;
+    border-radius:10px; 
+    margin-right:150px;
+}
+.TDinfo
+{
+    font-size: 16px;
+    font-family: 'Nachlieli CLM';
+    font-weight: bold;
+    margin-right: 10px;
+}
+.center1
+{
+       margin-right: 200px;
+}

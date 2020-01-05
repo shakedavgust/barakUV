@@ -1,0 +1,258 @@
+﻿.divMainp
+{
+    
+    background-color: rgba(112, 111, 106,0.4);
+    opacity: 1;
+    border-radius: 10px;
+    margin-top:3.5%;
+}
+.divMainp2
+{
+  background-color: rgba(112, 111, 106,0.4);
+    opacity: 1;
+    border-radius:6px; 
+    float:right;
+    width:450px;
+    height:450px;
+    margin-top:80px;
+    margin-right:30px;
+     border: 1px;
+    border-style: solid;
+    border-color: #F5F5F5;
+
+
+     
+}
+.AvMainp
+{
+  
+    border-radius:5px; 
+     float:left;
+          background-color: #1ea6cc;
+          width:130px;
+           height:35px;
+            margin-left:10px;
+            text-decoration:none;
+          
+}
+
+
+.menuDiv
+{
+    height:38px;
+    float:none;
+    margin-left:80;
+    width:900;
+   background-color:#1ea6cc;
+    border-radius:10px;  
+     
+}
+.menuTd
+{
+ font-size : large;
+   font-family: Arial;
+   font-weight: bold;
+   width: 100px; 
+    height:23px;
+    background-color:#1ea6cc;
+     border:1px;
+    border-radius:10px; 
+
+}
+.menuTd:hover
+{
+  
+
+    background-color: #9e0606;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial;
+    color: #FFFFFF;
+    width: 100px;
+    border: 1px;
+    height: 23px;
+    border-radius: 10px; 
+}
+.menuA
+{
+     
+   
+   text-decoration  :none;
+   
+   color: #000000;
+
+}
+.menuA:hover
+{
+text-decoration:none;
+color: #FFFFFF;
+
+
+}
+
+.MainA
+{
+
+     color: #FFFFFF;
+      text-decoration:none;
+       font-family:Arial, Helvetica, sans-serif;
+ font-size: 18px; 
+    font-weight: bold;  
+}
+.MainA:hover
+{
+    text-shadow:-12px 5px 4px #000000;
+     color: #FFFFFF;
+      text-decoration:none;
+       font-family:Arial, Helvetica, sans-serif;
+ font-size: 18px; 
+    font-weight: bold;
+}
+
+.Rth
+{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:right;
+}
+.tdWidth
+{
+    width: 750px;   
+}
+.Rdiv
+{
+    border-width: 4px;
+    margin-right:250px;
+    margin-top: 50px;
+   width  : 480px;
+    height: 698px;
+    float:right;
+    background-color:#1ea6cc;
+    border-radius:15px;    
+}
+.Rtable
+{
+   margin-right:90px;
+   margin-top: 10px; 
+}
+
+
+.Ldiv
+{
+    border-width: 4px;
+     margin-right:59%;
+    margin-top: 30px;
+    
+     background-color:#1ea6cc;
+    height: 580px; 
+     float:right;
+    Width:480px;
+    border-radius:15px; 
+ 
+       
+}
+.Ltable
+
+{
+    height:50px;
+ margin-right:40px;
+   margin-top: 20px; 
+   
+    
+   
+
+}
+.Lth
+{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:right;
+
+}
+.BGdiv
+{
+    background-image: url('MainPic/loginPic.png');
+    height: 517px;
+    margin-top: 20px;
+    
+    
+}
+
+
+.SHdiv
+{
+   background-color:#1ea6cc;
+   border-radius:15px;  
+}
+.SHtable
+{
+    
+}
+
+.tdDM
+{
+    border-style: double;
+    border-radius: 14px;
+    background-color: rgba(172, 172, 171,0.7);
+    opacity: 0.7;
+    width: 580px;
+    margin-top: 15px;
+    font-family: Tahoma;
+    font-size: madium;
+}
+.tdDM:hover
+{
+ border-style: double;
+    border-radius: 14px;
+    background-color: rgba(30, 166, 204,0.8);
+    opacity: 0.9999;
+    width:580px;
+    margin-top:15px;
+    font-family: Tahoma;
+    font-size: madium;
+}
+
+.tdHome
+{
+    width: 190px;
+    height: 200px;
+    background-color: #1ea6cc;
+    border-radius: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color:#9e0606;
+}
+
+.pImg1{background-image: url('MainPic/google-plus.png'); height:32px; width:32px; margin-right:10px;}
+.pImg2{background-image: url('MainPic/facebook.png');height:32px; width:32px;margin-right:10px;}
+.pImg3{background-image: url('MainPic/instagram.png');height:32px; width:32px;margin-right:10px;}
+.pImg1:hover{background-image: url('MainPic/google-plus2.png'); height:32px; width:32px; margin-right:10px;}
+.pImg2:hover{background-image: url('MainPic/facebook2.png');height:32px; width:32px;margin-right:10px;}
+.pImg3:hover{background-image: url('MainPic/instagram2.png');height:32px; width:32px;margin-right:10px;}
+
+
+.h1user
+{
+   font-family: Arial;
+   font-size:18px; 
+}
+
+
+
+.MainT   
+{
+
+   border-radius: 15px;
+   background-color: #1ea6cc; 
+   width:250px;     
+}
+
+.SessionA
+{
+  font-family: Arial;
+   font-size:14px; 
+   text-decoration:none;
+   color:Black;
+
+    
+}
